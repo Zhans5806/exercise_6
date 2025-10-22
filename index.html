@@ -15,8 +15,10 @@
         font-style: normal;
         font-variation-settings: "wdth" 100;
         font-size: 16px;
-        width: 960px;
+        width: 850px;
+        text-align: center;
       }
+
 
       h1 {
         font-family: "Oswald", sans-serif;
@@ -24,9 +26,17 @@
         font-weight: 500;
         font-style: normal;
         text-align: center;
+        margin: 20px;
       }
 
-      #site-title {}
+      h2 {
+        text-align: center;
+      }
+
+      #site-title {
+        font-size: 80px;
+        padding: 0px;
+      }
 
       nav {
         font-family: "Raleway", sans-serif;
@@ -44,13 +54,19 @@
       }
 
       ul li {
-        float: left;
-        padding: 14px;
+        display: inline-block;
+        margin-right: 14px;
+      }
+
+      ul li a {
+        text-decoration: none;
       }
 
       ul li a:hover {
-        background-color: green;
+        color: green;
       }
+
+
 
       .container {
         display: grid;
@@ -60,22 +76,35 @@
         margin: 0 auto;
       }
 
-      .grid_item {
-        border: 1px solid black;
+      .grid-item {
         min-height: 150px;
+        background-color: gray;
       }
 
-      footer {}
+      img {
+        width: 100%;
+      }
+
+      footer {
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        font-size: 25px;
+        padding: 30px;
+      }
     </style>
   </head>
   <body>
     <h1 id="site-title">Greg’s Banh Mi</h1>
+
     <nav>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Menu</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Contact</a></li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/">MENU</a></li>
+        <li><a href="/">ABOUT</a></li>
+        <li><a href="/">CONTACTS</a></li>
       </ul>
 
     </nav>
@@ -83,25 +112,25 @@
 
     <div class="container">
       <div class="grid-item">
-        <img src="banh-mi.jpg" alt="picture of a yummy banh mi" width="400" height="400">
+        <img src="banh-mi (1).jpg" alt="picture of a yummy banh mi">
         <h2>Classic Pork Banh Mi</h2>
-        <p>Tender marinated pork topped with crisp pickled vegetabl4s, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p>
+        <p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p>
       </div>
-      <div class="grid-item"><img src="banh-mi.jpg" alt="picture of a yummy banh mi" width="400" height="400">
+      <div class="grid-item"><img src="banh-mi (1).jpg" alt="picture of a yummy banh mi">
         <h2>Lemongrass Chicken Banh Mi</h2>
         <p>Grilled chicken marinated in fragrant lemongrass and garlic, paired with cucumber, jalapeños, and our house mayo. Light yet satisfying, this sandwich brings bright, aromatic flavors that'll transport you straight to Saigon.</p>
       </div>
-      <div class="grid-item"><img src="banh-mi.jpg" alt="picture of a yummy banh mi" width="400" height="400">
+      <div class="grid-item"><img src="banh-mi (1).jpg" alt="picture of a yummy banh mi">
         <h2>Tofu Banh Mi</h2>
         <p>Crispy pan-fried tofu glazed in sweet soy sauce, layered with daikon, carrots, and fresh herbs for a vegetarian delight. Proof that plant-based can be just as bold and craveable as any meat-filled sandwich.</p>
       </div>
-      <div class="grid-item"><img src="banh-mi.jpg" alt="picture of a yummy banh mi" width="400" height="400">
+      <div class="grid-item"><img src="banh-mi (1).jpg" alt="picture of a yummy banh mi">
         <h2>Five-Spice Beef Banh Mi</h2>
         <p>Thinly sliced beef seared with aromatic five-spice blend and served with pickled vegetables and spicy Sriracha mayo. Rich, warming spices meet cool, crunchy toppings for an unforgettable flavor experience.</p>
       </div>
     </div>
 
-    <footer>Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.</footer>
+    <footer><u>Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.</u></footer>
 
   </body>
 </html>
